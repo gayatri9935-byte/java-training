@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       int a;
+        int b,c;
+        
+        Scanner sw = new Scanner(System.in);
+        a=sw.nextInt();//3
+        b=sw.nextInt();//7
+        c=b;
+        b=a;
+        System.out.print(c+" ");
+        System.out.print(b);
+        
+    }
+}
