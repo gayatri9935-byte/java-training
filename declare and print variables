@@ -1,0 +1,14 @@
+import java.util.*;
+public class variable {
+    public static void main(String[] args) {
+       int a;
+        Float b;
+        String c;
+        Scanner var= new Scanner(System.in);
+        a=var.nextInt();
+        b=var.nextFloat();
+        c=var.next();
+            System.out.println(a+"\n"+b+"\n"+c+"\n");
+    }
+}
+        
