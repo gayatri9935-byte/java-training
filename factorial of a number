@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int n,fact=1;
+        Scanner ns= new Scanner(System.in);
+        n=ns.nextInt();
+        for(int i=1; i<=n; i++){
+            fact=fact*i;
+        }
+        System.out.println(fact);
+    }
+}
+    
