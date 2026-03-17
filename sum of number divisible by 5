@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner f = new Scanner(System.in);
+        int n = f.nextInt();
+        int sum = 0;
+
+        for (int i = 5; i <= n; i ++) {
+            sum += i;
+        }
+
+        System.out.println(sum);
+       
+    }
+}
